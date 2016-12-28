@@ -1,10 +1,12 @@
 # My Running History Visualization 
 
+[See resulting map](https://espinr.github.io/running/viz.html)
+
 In 2012 I bought a running watch with GPS capabilities. Since then I started logging all my workouts on [Nike+](http://www.nike.com/es/es_es/c/nike-plus). By the way, at that time, they had a really poor web application (i.e., it didn't provide links to share runs or any information regarding altitude, no way to download raw information or accessing it via API…). Later in 2012, Nike+ opened its mind and [launched the Nike+ Accelerator program](http://news.nike.com/news/nike-launches-first-accelerator-program), a new initiative involving third parties to reuse its APIs. Under this program, selected developers could access and reuse data coming from Nike+ APIs to develop innovative products and services. After that, some new applications and integrations with other platforms were created. Good idea, but too selective because **only official Nike+ developers have access to the APIs**. In the meantime, a few enthusiasts such as Matt Stuehler [did a good job](https://mattstuehler.com/lab/NikePlus/) enabling users to download all their workouts as [GPX](http://www.topografix.com/gpx.asp) files. These developers couldn't follow Nike's updates and had to stop their services.
 
 Now I use a TomTom GPS Watch but I still keep my runs synchronized with Nike+. TomTom is much better in terms of compatibility and standards. You can do whatever you want with **your** data. So, in this sense TomTom rocks! 
 
-After seeing some [appealing visualization examples](http://radar.oreilly.com/2011/09/nike-plus-running-data.html) I've tried to represent all my running workouts and races during these years. **More than 16,000 Km** around the world (mostly Europe) shown in just 30 seconds. See [the result](file:///Users/martin/development/espinr.github.io/running/viz.html) focused on my city, where I ran the most.
+After seeing some [appealing visualization examples](http://radar.oreilly.com/2011/09/nike-plus-running-data.html) I've tried to represent all my running workouts and races during these years. **More than 16,000 Km** around the world (mostly Europe) shown in just 30 seconds. See [the result](https://espinr.github.io/running/viz.html) focused on my city, where I ran the most.
 
 ## How I did it
 
