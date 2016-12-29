@@ -1,6 +1,6 @@
 # My Running History Visualization 
 
-![A track highlighted on a map](./img/tracks.png "A track highlighted on a map")
+![A track highlighted on a map](./img/map.png "A track highlighted on a map")
 
 [See resulting map](https://espinr.github.io/running/viz.html)
 
@@ -21,3 +21,9 @@ SmashRun keeps the data centralized on their servers, but you cannot access to t
 Using [a Python script](https://github.com/espinr/TCX-to-text), all this information was merged into just one large file (53 MBytes) with the minimum information (dates and coordinates) representing thousands of kilometres. 
 
 After that, the file was uploaded to [Carto](https://carto.com) and represented on [the map](https://espinr.carto.com/viz/f9333dd6-cc50-11e6-834e-0e05a8b3e3d7/map).  
+
+See [another example](https://espinr.github.io/running/tracks.html), now with the complete lines with tracks:
+
+![A track highlighted on a map](./img/tracks.png "Tracks highlighted on a map")
+
+
