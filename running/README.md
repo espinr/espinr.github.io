@@ -1,5 +1,7 @@
 # My Running History Visualization 
 
+![A track highlighted on a map](./img/tracks.png "A track highlighted on a map")
+
 [See resulting map](https://espinr.github.io/running/viz.html)
 
 In 2012 I bought a running watch with GPS capabilities. Since then I started logging all my workouts on [Nike+](http://www.nike.com/es/es_es/c/nike-plus). By the way, at that time, they had a really poor web application (i.e., it didn't provide links to share runs or any information regarding altitude, no way to download raw information or accessing it via API…). Later in 2012, Nike+ opened its mind and [launched the Nike+ Accelerator program](http://news.nike.com/news/nike-launches-first-accelerator-program), a new initiative involving third parties to reuse its APIs. Under this program, selected developers could access and reuse data coming from Nike+ APIs to develop innovative products and services. After that, some new applications and integrations with other platforms were created. Good idea, but too selective because **only official Nike+ developers have access to the APIs**. In the meantime, a few enthusiasts such as Matt Stuehler [did a good job](https://mattstuehler.com/lab/NikePlus/) enabling users to download all their workouts as [GPX](http://www.topografix.com/gpx.asp) files. These developers couldn't follow Nike's updates and had to stop their services.
