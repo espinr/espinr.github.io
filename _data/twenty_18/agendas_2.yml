@@ -1,0 +1,17 @@
+- time: 09:00 AM - 11:30 PM
+  info: "<u>Session 1</u><br><b>Speaker</b><br><i>Position</i><br><br>Topic"
+
+- time: 11:30 AM - 12:00 PM
+  info: "<u>Coffee Break</u>"
+
+- time: 12:00 PM - 13:30 PM
+  info: "<u>Session 2</u><br><b>Speaker</b><br><i>Position</i><br><br>Topic"
+
+- time: 13:30 PM - 15:00 PM
+  info: "<u>Lunch</u>"
+
+- time: 15:00 PM - 17:00 PM
+  info: "<u>Session 3</u><br><b>Speaker</b><br><i>Position</i><br><br>Topic"
+
+- time: 19:00 PM - 21:00 PM
+  info: "<u>Social event</u>"

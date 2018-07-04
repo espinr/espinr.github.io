@@ -1,0 +1,20 @@
+- title: European Athletics
+  url: http://www.european-athletics.org
+  subtitle:  
+  img: ea_logo.png
+  thumbnail: ea_logo.png
+  alt: European Athletics
+
+- title: CTIC Technology Centre
+  url: http://www.ctic.es
+  subtitle: W3C Spain Office Host
+  img: ctic-w3c.png
+  thumbnail: ctic-w3c.png
+  alt: CTIC / W3C Spain
+  
+- title: Reportlab
+  url: https://www.reportlab.com
+  subtitle: 
+  img: reportlab.png
+  thumbnail: reportlab.png
+  alt: Reportlab

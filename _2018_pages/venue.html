@@ -1,0 +1,58 @@
+---
+layout: 2018_map
+permalink: /venue
+title: Venue
+published: true
+---
+    <script type="text/javascript">
+      $(document).ready(function() {
+        var map = L.map('venue-map').setView([43.541251, -5.643205], 13);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        }).addTo(map);
+        var myIcon = L.icon({
+            iconUrl: '/css/2018_style/img/leaflet/marker-icon-2x.png',
+            popupAnchor: [0, -36],
+        });
+        var marker = L.marker([43.541251, -5.643205]).addTo(map)
+            .bindPopup('abba Playa Gijón Hotel')
+            .setIcon(myIcon)
+            .openPopup();
+      });
+    </script>
+
+    <div class="event">
+      <h1>{{ page.title }}</h1>
+      <p>9-11 October 2018<br><strong>Gijón (Asturias, Spain)</strong></p>
+      <div class="venue-map" id="venue-map"></div>
+
+      <h3 class="second">Address</h3>
+      <address>
+          abba Playa Gijón Hotel ****S<br>
+          Paseo Doctor Fleming, 37<br>
+          33203 - Gijón<br>
+          Phone (+34) 985 000 000<br>
+          <a href="https://www.abbagijonhotel.com/en/home.html">website</a>
+      </address>
+
+      
+      <h4>Air Connections</h4>
+      <p>The International <b>Airport of Asturias (IATA Code: OVD)</b> is located in Santiago del Monte, and has connections with several major cities and islands of Spain: Madrid, Barcelona, Valencia, the Balearic Islands, the Canary Islands...
+Direct flights to Lisbon, Paris and London. 
+
+      <h4>How to get to Gijón?</h4>
+      <p>The Airport is a thirty-minute drive from Gijón on the fluid motorway link (A-8).</p>
+      <p>Visitors that arrive by air have three options to get to the town:</p>
+      <ul>
+        <li><strong>TAXI</strong>: There is a taxi rank in the airport itself that is
+            in service until the arrival of the last flight. Fare: 45-
+            60€ to/from Gijón.</li>
+        <li><strong>BUS</strong>: The ALSA company offers several daily coach
+            services Gijón - Airport - Gijón. Bus Fare: 8 € One
+            way, Return 16 €</li>
+        <li><strong>RENT A CAR</strong>: Four car hire firms offer their services
+            with a broad timetable. These firms also have
+            branches in Gijón: Avis, Europcar, Hertz España,
+            Nacional Atesa</li>
+      </ul>
+    </div>
