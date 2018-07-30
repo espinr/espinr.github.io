@@ -1,17 +1,37 @@
-- time: 09:00 AM - 11:30 PM
-  info: "<u>Session 1</u><br><b>Speaker</b><br><i>Position</i><br><br>Topic"
+- time: 09:00 - 11:30
+  info: "<p style='margin-bottom: 0'><b>Competition Data Management</b>
+    <br>Roundtable to present experiences on:</p>
+      <ul>
+        <li>Federation's perspective</li>
+        <li>Market's perspective</li>
+        <li>Provision of services</li>
+        <li>Open data in sports</li>
+        <li>General Data Protection Rules</li>
+        <li>Reporting and visualization</li>
+        <li>New business models</li>
+        <li>[Do you want to join this session as a speaker? <a href='/#contact'>Tell us</a>.</li>
+      </ul>"
 
-- time: 11:30 AM - 12:00 PM
-  info: "<u>Coffee Break</u>"
+- time: 11:30 - 12:00
+  info: "<p><u>Coffee Break</u></p>"
 
-- time: 12:00 PM - 13:30 PM
-  info: "<u>Session 2</u><br><b>Speaker</b><br><i>Position</i><br><br>Topic"
+- time: 12:00 - 13:30
+  info: "<p style='margin-bottom: 0'><b>Sports Data Journalism</b>
+    <br>Session with presentation of sports journalists and data experts on the following topics:</p>
+      <ul>
+        <li>Story-telling</li>
+        <li>Statistics for news</li>
+        <li>Running as a mean to get audience</li>
+        <li>Making the most of data</li>
+        <li>[Do you want to join this session as a speaker? <a href='/#contact'>Tell us</a>.</li>
+      </ul>"
 
-- time: 13:30 PM - 15:00 PM
-  info: "<u>Lunch</u>"
+- time: 13:30 - 15:00
+  info: "<p><u>Lunch</u></p>"
 
-- time: 15:00 PM - 17:00 PM
-  info: "<u>Session 3</u><br><b>Speaker</b><br><i>Position</i><br><br>Topic"
+- time: 15:00 - 17:00
+  info: "<p><b>Wrap-up and next steps</b></p>
+    <p>...</p>"
 
-- time: 19:00 PM - 21:00 PM
-  info: "<u>Social event</u>"
+- time: 18:00 - 19:00
+  info: "<p><u>Social Jogging</u></p>"

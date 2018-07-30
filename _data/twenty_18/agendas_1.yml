@@ -1,17 +1,39 @@
-- time: 09:00 AM - 11:30 PM
-  info: "<u>Session 1</u><br><b>Speaker</b><br><i>Position</i><br><br>Topic"
+- time: 09:00 - 11:30
+  info: "<p  style='margin-bottom: 0'><b>Welcome + Introduction</b>
+    <br>Welcome and introduction on the standardisation work, including:</p>
+      <ul>
+        <li>A vision from the top <i>by <b>European Athletics</b></i></li>
+        <li>Standards for athletics data collection <i>by <b>CTIC/W3C Spain</b></i></li>
+        <li>Practical data sharing: Who are the users and how much data is collected <i>by <b>OpenTrack</b></i></li>
+        <li>[Do you want to join this session as a speaker? <a href='/#contact'>Tell us</a>.</li>
+      </ul>"
 
-- time: 11:30 AM - 12:00 PM
-  info: "<u>Coffee Break</u>"
+- time: 11:30 - 12:00
+  info: "<p><u>Coffee Break</u></p>"
 
-- time: 12:00 PM - 13:30 PM
-  info: "<u>Session 2</u><br><b>Speaker</b><br><i>Position</i><br><br>Topic"
+- time: 12:00 - 13:30
+  info: "<p style='margin-bottom: 0'><b>Cutting-Edge Technologies for Data Management in Sports</b>
+    <br>Presentation of technologies and solutions for data management in sports, including:</p>
+      <ul>
+        <li>Big data and analytics to enhance performance</li>
+        <li>Statistics and data processing</li>
+        <li>Visualization of sports data</li>
+        <li>Blockchain for trust</li>
+        <li>[Do you want to join this session as a speaker? <a href='/#contact'>Tell us</a>.</li>
+      </ul>"
 
-- time: 13:30 PM - 15:00 PM
-  info: "<u>Lunch</u>"
+- time: 13:30 - 15:00
+  info: "<p><u>Lunch</u></p>"
 
-- time: 15:00 PM - 17:00 PM
-  info: "<u>Session 3</u><br><b>Speaker</b><br><i>Position</i><br><br>Topic"
+- time: 15:00 - 17:00
+  info: "<p><b>Real-World Technologies in real scenarios</b>
+    <br>Showcase of products and solutions for sports in a real-world enviroment.<br>
+    This session will be held at the local track and field stadium (see <a href='/venue#mestas'>Las Mestas in the venue section</a>).<br>
+    [Do you want to join this session as a speaker? <a href='/#contact'>Tell us</a>.</p>"
 
-- time: 19:00 PM - 21:00 PM
-  info: "<u>Social event</u>"
+- time: 18:00 - 19:00
+  info: "<p><b>KilometrinRUN</b><br>Handicap Relay Race at El Kilometrín.
+    <br>Twenty teams of different age and gender will participate on a competitive race where strategy is key. Read more information about KilometrinRUN.</p>"
+
+- time: 20:00 - 22:00
+  info: "<p><u><i>Espicha</i> (Informal dinner)</u></p>"

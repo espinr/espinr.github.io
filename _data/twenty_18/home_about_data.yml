@@ -17,6 +17,12 @@
   link: /team
 
 - inverted: timeline-inverted
+  img: booklet-icon.png
+  name: Register
+  info: Register through the OpenTrack Platform 
+  link: /register
+
+- inverted:
   img: icon-venue.jpeg
   name: Venue
   info: Learn more about the conference's location
