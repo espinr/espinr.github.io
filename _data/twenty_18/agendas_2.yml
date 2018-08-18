@@ -1,14 +1,36 @@
-- time: 09:00 - 11:30
-  info: "<p style='margin-bottom: 0'><b>Competition Data Management</b>
+- time: 09:00 - 09:45
+  info: "<p style='margin-bottom: 0'><b>Calendar Management</b>
+    <br>Roundtable on standardisation and exchange of competition calendars</p>
+      <ul>
+        <li>The benefits for all</li>
+        <li>The planning process</li>
+        <li>What do we need to store</li>
+        <li>Deduplication and naming across borders</li>
+        <li>Promotion of competitions</li>
+      </ul>"
+
+- time: 09:45 - 10:30
+  info: "<p style='margin-bottom: 0'><b>Venue and Facilities Management</b>
+    <br>Standardising facility (track / course) info</p>
+      <ul>
+        <li>The benefits for all</li>
+        <li>What do we need to store</li>
+        <li>Reviews and guiding investment</li>
+        <li>Big data analysis possibilities</li>
+      </ul>"
+
+- time: 10:30 - 11:30
+  info: "<p style='margin-bottom: 0'><b>Federation Management</b>
     <br>Roundtable to present experiences on:</p>
       <ul>
         <li>Federation's perspective</li>
         <li>Market's perspective</li>
         <li>Provision of services</li>
         <li>Open data in sports</li>
-        <li>General Data Protection Rules</li>
+        <li>Applying General Data Protection Rules</li>
         <li>Reporting and visualization</li>
         <li>New business models</li>
+        <li>What’s helping grow the sport</li>
         <li>[Do you want to join this session as a speaker? <a href='/#contact'>Tell us</a>.</li>
       </ul>"
 
@@ -16,13 +38,16 @@
   info: "<p><u>Coffee Break</u></p>"
 
 - time: 12:00 - 13:30
-  info: "<p style='margin-bottom: 0'><b>Sports Data Journalism</b>
-    <br>Session with presentation of sports journalists and data experts on the following topics:</p>
+  info: "<p style='margin-bottom: 0'><b>Competition Management</b>
+    <br>Surveying and showcasing everything helping to make it easier to manage competitions:</p>
       <ul>
-        <li>Story-telling</li>
-        <li>Statistics for news</li>
-        <li>Running as a mean to get audience</li>
-        <li>Making the most of data</li>
+        <li>Timing and measuring systems</li>
+        <li>Stadium networking</li>
+        <li>Road and cross country</li>
+        <li>Better software workflows</li>
+        <li>Innovations in scoring</li>
+        <li>Athlete communications</li>
+        <li>Fan engagement</li>
         <li>[Do you want to join this session as a speaker? <a href='/#contact'>Tell us</a>.</li>
       </ul>"
 
@@ -30,8 +55,15 @@
   info: "<p><u>Lunch</u></p>"
 
 - time: 15:00 - 17:00
-  info: "<p><b>Wrap-up and next steps</b></p>
-    <p>...</p>"
+  info: "<p style='margin-bottom: 0'><b>Sports Data Journalism</b>
+    <br>Session with presentation of sports journalists and data experts on the following topics:</p>
+      <ul>
+        <li>Story-telling across all media</li>
+        <li>Statistics for news</li>
+        <li>Running as a mean to get audience</li>
+        <li>Making the most of data</li>
+        <li>[Do you want to join this session as a speaker? <a href='/#contact'>Tell us</a>.</li>
+      </ul>"
 
 - time: 18:00 - 19:00
   info: "<p><u>Social Jogging</u></p>"
