@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<rdf:RDF xml:base="http://purl.org/ctic/dcat#" xmlns="http://purl.org/ctic/dcat#" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dctype="http://purl.org/dc/dcmitype/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+	<owl:Ontology rdf:about="http://purl.org/ctic/dcat#">
+		<!-- **************************** La información sobre el esquema ****************************** -->
+		<!-- La URI de la versión del esquema -->
+		<dc:identifier>http://data.fundacionctic.org/vocab/catalog/dcat_20111105</dc:identifier>
+		<dc:date>2011-11-05</dc:date>
+		<dcterms:issued>2009-09-28</dcterms:issued>
+		<dc:title xml:lang="es">Vocabulario de Catálogos de Datasets</dc:title>
+		<dc:title xml:lang="en">Dataset Catalog Vocabulary</dc:title>
+		<rdfs:comment xml:lang="es">Este vocabulario se utiliza para modelar los catálogos de conjuntos de datos y las relaciones con los datasets</rdfs:comment>
+		<rdfs:comment xml:lang="en">This vocabulary is used for modelling catalogs of datasets and its relationships with the datasets</rdfs:comment>
+		<dcterms:isVersionOf rdf:resource="http://purl.org/ctic/dcat#"/>
+		<dc:creator>CTIC CT</dc:creator>
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0"/>
+		<dc:rights xml:lang="es">CTIC CT - Creative Commons 3.0 (BY-NC-SA)</dc:rights>
+		<dc:rights xml:lang="en">CTIC CT - Creative Commons 3.0 (BY-NC-SA)</dc:rights>
+		<!-- En las actualizaciones, indica que se reemplaza el documento anterior-->
+		<dcterms:replaces rdf:resource="http://data.fundacionctic.org/vocab/catalog/datasets_20100901"/>
+		<vann:preferredNamespaceUri>http://purl.org/ctic/dcat#</vann:preferredNamespaceUri>
+		<vann:preferredNamespacePrefix>ds</vann:preferredNamespacePrefix>
+		<!-- El formato del documento HTML -->
+		<dcterms:hasFormat>
+			<dctype:Text rdf:about="http://data.fundacionctic.org/vocab/catalog/dcat_20111105.html">
+				<dc:format>
+					<dcterms:IMT>
+						<rdf:value>text/html</rdf:value>
+						<rdfs:label>HTML</rdfs:label>
+					</dcterms:IMT>
+				</dc:format>
+			</dctype:Text>
+		</dcterms:hasFormat>
+		<!-- El formato del documento RDF -->
+		<dcterms:hasFormat>
+			<dctype:Text rdf:about="http://data.fundacionctic.org/vocab/catalog/dcat_20111105.rdf">
+				<dc:format>
+					<dcterms:IMT>
+						<rdf:value>application/rdf+xml</rdf:value>
+						<rdfs:label>RDF</rdfs:label>
+					</dcterms:IMT>
+				</dc:format>
+			</dctype:Text>
+		</dcterms:hasFormat>
+		<skos:historyNote rdf:parseType="Resource">
+			<rdf:value xml:lang="es">Añadido un esquema de conceptos para representar el modo de acceso a la información: acceso indirecto y acceso directo</rdf:value>
+			<rdf:value xml:lang="es">Added a concept scheme to represent the information access mode: indirect access, and direct access</rdf:value>
+			<dc:date>2011-11-05</dc:date>
+			<dc:creator>CTIC-CT</dc:creator>
+		</skos:historyNote>		
+	</owl:Ontology>
+	<!-- ******************************************************************************************* -->
+	<rdfs:Class rdf:about="http://purl.org/ctic/dcat#Catalog">
+		<rdfs:isDefinedBy rdf:resource="http://purl.org/ctic/dcat#"/>
+		<rdfs:label xml:lang="es">Catálogo de datasets</rdfs:label>
+		<rdfs:comment xml:lang="es">Catálogo donde se expresan conjuntos de datos</rdfs:comment>
+		<skos:definition xml:lang="es">Catálogo donde se expresan conjuntos de datos</skos:definition>
+		<rdfs:label xml:lang="en">Catalog of Datasets</rdfs:label>
+		<rdfs:comment xml:lang="en">Catalog which have defined datasets in</rdfs:comment>
+		<skos:definition xml:lang="en">Catalog which have defined datasets in</skos:definition>
+		<dcterms:issued>2009-09-28</dcterms:issued>
+	</rdfs:Class>
+	<rdfs:Class rdf:about="http://purl.org/ctic/dcat#Dataset">
+		<rdfs:isDefinedBy rdf:resource="http://purl.org/ctic/dcat#"/>
+		<rdfs:label xml:lang="es">Dataset</rdfs:label>
+		<rdfs:comment xml:lang="es">Un conjunto de datos</rdfs:comment>
+		<skos:definition xml:lang="es">Un conjunto de datos</skos:definition>
+		<rdfs:label xml:lang="en">Dataset</rdfs:label>
+		<rdfs:comment xml:lang="en">A dataset</rdfs:comment>
+		<skos:definition xml:lang="en">A dataset</skos:definition>
+		<rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/Dataset"/>
+		<dcterms:issued>2009-09-28</dcterms:issued>
+		<skos:historyNote rdf:parseType="Resource">
+			<rdf:value xml:lang="en">dcterms:Dataset term is broader than void:Dataset, allowing non-linked data datasets</rdf:value>
+			<rdf:value xml:lang="es">dcterms:Dataset es un término más amplio que void:Dataset, de forma que admite datasets que no son linked data</rdf:value>
+			<dc:date>2010-03-01</dc:date>
+			<dc:creator>CTIC-CT</dc:creator>
+		</skos:historyNote>
+	</rdfs:Class>
+	<rdf:Property rdf:about="http://purl.org/ctic/dcat#memberOf">
+		<rdfs:isDefinedBy rdf:resource="http://purl.org/ctic/dcat#"/>
+		<rdfs:label xml:lang="es">Un Dataset es miembro de un Catálogo</rdfs:label>
+		<rdfs:comment xml:lang="es">Propiedad que define un Catálogo al que pertenece el Dataset</rdfs:comment>
+		<skos:definition xml:lang="es">Propiedad que define un Catálogo al que pertenece el Dataset</skos:definition>
+		<rdfs:label xml:lang="en">A Dataset is a member of a Catalog</rdfs:label>
+		<rdfs:comment xml:lang="en">Property which defines a Catalog that contains the Dataset</rdfs:comment>
+		<skos:definition xml:lang="en">Property which defines a Catalog that contains the Dataset</skos:definition>
+		<rdfs:range rdf:resource="http://purl.org/ctic/dcat#Catalog"/>
+		<rdfs:domain rdf:resource="http://purl.org/ctic/dcat#Dataset"/>
+		<dcterms:issued>2009-09-28</dcterms:issued>
+		<skos:changeNote rdf:parseType="Resource">
+			<rdf:value xml:lang="en">Improved definition for the property</rdf:value>
+			<rdf:value xml:lang="es">Definición de la propiedad mejorada</rdf:value>
+			<dc:date>2010-04-06</dc:date>
+			<dc:creator>CTIC-CT</dc:creator>
+		</skos:changeNote>
+	</rdf:Property>
+	<rdf:Property rdf:about="http://purl.org/ctic/dcat#member">
+		<rdfs:isDefinedBy rdf:resource="http://purl.org/ctic/dcat#"/>
+		<rdfs:label xml:lang="es">Un Catálogo tiene un Dataset como miembro del mismo</rdfs:label>
+		<rdfs:comment xml:lang="es">Propiedad que define que el Catálogo tiene un Dataset como miembro del mismo</rdfs:comment>
+		<skos:definition xml:lang="es">Propiedad que define que el Catálogo tiene un Dataset como miembro del mismo</skos:definition>
+		<rdfs:label xml:lang="en">A Catalog has a Dataset member</rdfs:label>
+		<rdfs:comment xml:lang="en">Property which defines a Dataset member of the Catalog</rdfs:comment>
+		<skos:definition xml:lang="en">Property which defines a Dataset member of the Catalog</skos:definition>
+		<rdfs:range rdf:resource="http://purl.org/ctic/dcat#Dataset"/>
+		<rdfs:domain rdf:resource="http://purl.org/ctic/dcat#Catalog"/>
+		<dcterms:issued>2010-04-06</dcterms:issued>
+	</rdf:Property>
+	<rdf:Property rdf:about="http://purl.org/ctic/dcat#status">
+		<rdfs:isDefinedBy rdf:resource="http://purl.org/ctic/dcat#"/>
+		<rdfs:label xml:lang="es">Estado del catálogo</rdfs:label>
+		<rdfs:comment xml:lang="es">Propiedad que define el estado del catálogo en función de una taxonomía determinada</rdfs:comment>
+		<skos:definition xml:lang="es">Propiedad que define el estado del catálogo en función de una taxonomía determinada</skos:definition>
+		<rdfs:label xml:lang="en">Catalog status</rdfs:label>
+		<rdfs:comment xml:lang="en">Property which defines the status of the Dataset according to a defined taxonomy</rdfs:comment>
+		<skos:definition xml:lang="en">Property which defines the status of the Dataset according to a defined taxonomy</skos:definition>
+		<rdfs:range rdf:resource="http://purl.org/ctic/dcat#Dataset"/>
+		<dcterms:issued>2010-09-01</dcterms:issued>
+	</rdf:Property>
+	
+	
+	<!-- Taxonomy about the dataset status -->
+	<skos:ConceptScheme rdf:about="http://purl.org/ctic/dcat#statusScheme">
+		<rdfs:label xml:lang="es">Taxonomía de los estados de un catálogo</rdfs:label>
+		<rdfs:comment xml:lang="es">Esquema de conceptos de los estados que puede tomar un catálogo</rdfs:comment>
+		<skos:definition xml:lang="es">Esquema de conceptos de los estados que puede tomar un catálogo</skos:definition>
+		<rdfs:label xml:lang="en">Taxonomy of the catalog statuses</rdfs:label>
+		<rdfs:comment xml:lang="en">Concept scheme of the different statuses for a catalog</rdfs:comment>
+		<skos:definition xml:lang="en">Concept scheme of the different statuses for a catalog</skos:definition>		
+	</skos:ConceptScheme>
+	<skos:Concept rdf:about="http://purl.org/ctic/dcat#status-announced">
+		<skos:inScheme rdf:resource="http://purl.org/ctic/dcat#statusScheme" />
+		<skos:prefLabel xml:lang="en">Catalog announced</skos:prefLabel>
+		<skos:prefLabel xml:lang="es">Catálogo anunciado</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/ctic/dcat#status-data">
+		<skos:inScheme rdf:resource="http://purl.org/ctic/dcat#statusScheme" />
+		<skos:prefLabel xml:lang="en">Data available on the Web</skos:prefLabel>
+		<skos:prefLabel xml:lang="es">Datos disponibles en la Web</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/ctic/dcat#status-structuredData">
+		<skos:inScheme rdf:resource="http://purl.org/ctic/dcat#statusScheme" />
+		<skos:prefLabel xml:lang="en">Structured data available on the Web</skos:prefLabel>
+		<skos:prefLabel xml:lang="es">Datos estructurados disponibles en la Web</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/ctic/dcat#status-nonProprietaryFormat">
+		<skos:inScheme rdf:resource="http://purl.org/ctic/dcat#statusScheme" />
+		<skos:prefLabel xml:lang="en">Data in a non-proprietary format available on the Web</skos:prefLabel>
+		<skos:prefLabel xml:lang="es">Datos en formato no propietario disponibles en la Web</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/ctic/dcat#status-ldFormat">
+		<skos:inScheme rdf:resource="http://purl.org/ctic/dcat#statusScheme" />
+		<skos:prefLabel xml:lang="en">Data in Linked Data format available on the Web</skos:prefLabel>
+		<skos:prefLabel xml:lang="es">Datos en formato Linked Data disponibles en la Web</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/ctic/dcat#status-linkedData">
+		<skos:inScheme rdf:resource="http://purl.org/ctic/dcat#statusScheme" />
+		<skos:prefLabel xml:lang="en">Data linked with other data on the Web</skos:prefLabel>
+		<skos:prefLabel xml:lang="es">Datos enlazados con otros datos en la Web</skos:prefLabel>
+	</skos:Concept>
+	<!-- end of taxonomy -->
+
+	<!-- Taxonomy about the mode of access to distributions -->
+	<skos:ConceptScheme rdf:about="http://purl.org/ctic/dcat#accessModeScheme">
+		<rdfs:label xml:lang="es">Taxonomía de los tipos de acceso a la información</rdfs:label>
+		<rdfs:comment xml:lang="es">Taxonomía de los tipos de acceso a las distribuciones de la información</rdfs:comment>
+		<skos:definition xml:lang="es">Taxonomía de los tipos de acceso a las distribuciones de la información</skos:definition>
+		<rdfs:label xml:lang="en">Taxonomy of the information access mode</rdfs:label>
+		<rdfs:comment xml:lang="en">Concept scheme of the different access modes to the information distributions</rdfs:comment>
+		<skos:definition xml:lang="en">Concept scheme of the different access modes to the information distributions</skos:definition>		
+	</skos:ConceptScheme>
+	<skos:Concept rdf:about="http://purl.org/ctic/dcat#accessMode-direct">
+		<skos:inScheme rdf:resource="http://purl.org/ctic/dcat#accessModeScheme" />
+		<skos:prefLabel xml:lang="en">Direct Access</skos:prefLabel>
+		<skos:prefLabel xml:lang="es">Acceso directo</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/ctic/dcat#accessMode-indirect">
+		<skos:inScheme rdf:resource="http://purl.org/ctic/dcat#accessModeScheme" />
+		<skos:prefLabel xml:lang="en">Indirect Access</skos:prefLabel>
+		<skos:prefLabel xml:lang="es">Acceso indirecto</skos:prefLabel>
+	</skos:Concept>
+	<!-- end of taxonomy -->
+
+	
+</rdf:RDF>
