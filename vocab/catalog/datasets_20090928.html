@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xml:lang="es" lang="es" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:wot="http://xmlns.com/wot/0.1/" xmlns:cc="http://web.resource.org/cc/" xmlns:vann="http://purl.org/vocab/vann/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:org="http://data.fundacionctic.org/vocab/comun/org#" xmlns="http://www.w3.org/1999/xhtml"><head><title>Dataset Catalog Vocabulary</title><link rel="meta" type="application/rdf+xml" title="Dataset Catalog Vocabulary" href="http://data.fundacionctic.org/vocab/catalog/datasets_20090928.rdf"/><link type="text/css" rel="stylesheet" media="all" href="http://datos.fundacionctic.org/recursos/2009/09/vocab.css"/></head><body><p><a href="http://www.fundacionctic.org/"><img src="http://datos.fundacionctic.org/recursos/2009/09/logo-ctic.gif" alt="Fundación CTIC"/></a></p><h1>Dataset Catalog Vocabulary</h1><dl class="doc-info"><dt>This Version</dt><dd><a href="http://data.fundacionctic.org/vocab/catalog/datasets_20090928">http://data.fundacionctic.org/vocab/catalog/datasets_20090928</a> [<a href="http://data.fundacionctic.org/vocab/catalog/datasets_20090928.html">HTML</a>] [<a href="http://data.fundacionctic.org/vocab/catalog/datasets_20090928.rdf">RDF</a>]</dd><dt>Latest Version</dt><dd><a href="http://data.fundacionctic.org/vocab/catalog/datasets#">http://data.fundacionctic.org/vocab/catalog/datasets#</a></dd><dt>Author(s)</dt><dd>CTIC CT</dd></dl><p class="rights">CTIC CT - Creative Commons 3.0 (BY-NC-SA)</p><p class="license">This work is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/3.0">Creative Commons License</a>.</p><h2 id="toc">Table of Contents</h2><ul class="toc"><li><a href="#sec-introduction">Introduction</a></li><li><a href="#sec-namespace">Namespace</a></li><li><a href="#sec-terms">Summary of Terms</a></li><li><a href="#sec-classes">Vocabulary Classes</a></li><li><a href="#sec-properties">Vocabulary Properties</a></li><li><a href="#sec-schema">RDF Schema</a></li><li><a href="#sec-license">License</a></li></ul><h2 id="sec-introduction">Introduction</h2><p class="comment">This vocabulary is used for modelling catalogs of datasets and its relationships with the datasets</p><h2 id="sec-changes">Changes From Previous Version</h2><ul><li><span class="date">2009-09-28</span> - first issued</li></ul><h2 id="sec-namespace">Namespace</h2><p>The URI for this vocabulary is </p><pre><code>http://data.fundacionctic.org/vocab/catalog/datasets#</code></pre><p>
+          When used in XML documents the suggested prefix is <code>ds</code></p><p>Each class or property in the vocabulary has a URI constructed by appending a term name to the vocabulary URI. For example:</p><pre><code>http://data.fundacionctic.org/vocab/catalog/datasets#memberOf
+http://data.fundacionctic.org/vocab/catalog/datasets#Catalog</code></pre><p>The term name for a class always starts with an uppercase character. Where the term name is comprised of multiple 
+      concatenated words, the leading character of each word will be an uppercase character. For example:
+      </p><pre><code>Catalog
+Dataset</code></pre><p>The term name for a property always starts with an lowercase character. Where the term name is comprised of multiple 
+      concatenated words, the leading character of the second and each subsequent word will be an uppercase character. For example:
+      </p><pre><code>memberOf
+</code></pre><h2 id="sec-terms">Summary of Terms</h2><p>This vocabulary defines
+
+      2 classes 
+        
+      and 
+      
+          one property
+        
+      .
+    </p><table><tr><th>Term Name</th><th>Type</th><th>Definition</th></tr><tr><td><a href="#Catalog" title="http://data.fundacionctic.org/vocab/catalog/datasets#Catalog">Catalog</a></td><td>class</td><td>Catalog which have defined datasets in</td></tr><tr><td><a href="#Dataset" title="http://data.fundacionctic.org/vocab/catalog/datasets#Dataset">Dataset</a></td><td>class</td><td>A dataset</td></tr><tr><td><a href="#memberOf" title="http://data.fundacionctic.org/vocab/catalog/datasets#memberOf">memberOf</a></td><td>property</td><td>Property which defines a Dataset which is a member of a Catalog</td></tr></table><h2 id="sec-classes">Vocabulary Classes</h2><div class="class"><h3 id="Catalog">Class: Catalog</h3><div class="description"><p class="definition"><strong>Definition: </strong>Catalog which have defined datasets in</p><p class="comment">Catalog which have defined datasets in</p><table class="properties"><tbody><tr><th>URI:</th><td>http://data.fundacionctic.org/vocab/catalog/datasets#Catalog</td></tr><tr><th>Label:</th><td>Catalog of Datasets</td></tr></tbody></table><h4>History</h4><ul class="historyList"><li><span class="date">2009-09-28</span> - first issued</li></ul></div></div><div class="class"><h3 id="Dataset">Class: Dataset</h3><div class="description"><p class="definition"><strong>Definition: </strong>A dataset</p><p class="comment">A dataset</p><table class="properties"><tbody><tr><th>URI:</th><td>http://data.fundacionctic.org/vocab/catalog/datasets#Dataset</td></tr><tr><th>Label:</th><td>Dataset</td></tr><tr><th>Subclass of</th><td><a href="http://rdfs.org/ns/void#Dataset">http://rdfs.org/ns/void#Dataset</a></td></tr><tr><th>Paraphrase</th><td>
+              
+                  A <a href="#Dataset" title="http://data.fundacionctic.org/vocab/catalog/datasets#Dataset">ds:Dataset</a>
+                 is something that, amongst other things, 
+                
+        is a
+        <a href="http://rdfs.org/ns/void#Dataset">http://rdfs.org/ns/void#Dataset</a></td></tr></tbody></table><h4>History</h4><ul class="historyList"><li><span class="date">2009-09-28</span> - first issued</li></ul></div></div><h2 id="sec-properties">Vocabulary Properties</h2><div class="property"><h3 id="memberOf">Property: memberOf</h3><div class="description"><p class="definition"><strong>Definition: </strong>[The value of this property is] Property which defines a Dataset which is a member of a Catalog</p><p class="comment">Property which defines a Dataset which is a member of a Catalog</p><table class="properties"><tbody><tr><th>URI:</th><td>http://data.fundacionctic.org/vocab/catalog/datasets#memberOf</td></tr><tr><th>Label:</th><td>A Dataset is a member of a Catalog</td></tr><tr><th>Domain</th><td><a href="#Dataset" title="http://data.fundacionctic.org/vocab/catalog/datasets#Dataset">ds:Dataset</a></td></tr><tr><th>Range</th><td><a href="#Catalog" title="http://data.fundacionctic.org/vocab/catalog/datasets#Catalog">ds:Catalog</a></td></tr><tr><th>Paraphrase</th><td>
+                    Having a <a href="#memberOf" title="http://data.fundacionctic.org/vocab/catalog/datasets#memberOf">ds:memberOf</a>
+                    implies being
+                   something that, amongst other things, is a <a href="#Dataset" title="http://data.fundacionctic.org/vocab/catalog/datasets#Dataset">ds:Dataset</a></td></tr></tbody></table><h4>History</h4><ul class="historyList"><li><span class="date">2009-09-28</span> - first issued</li></ul></div></div><h2 id="sec-schema">RDF Schema</h2><p>The schema included here is informational only. The normative schema can be found at <a href="http://data.fundacionctic.org/vocab/catalog/datasets_20090928.rdf">http://data.fundacionctic.org/vocab/catalog/datasets_20090928.rdf</a></p><pre><code class="xml"><span class="elem">&lt;rdf:RDF</span>
+   <span class="attr">xmlns:</span>="<span class="attrVal">http://data.fundacionctic.org/vocab/catalog/datasets#</span>"
+   <span class="attr">xmlns:foaf</span>="<span class="attrVal">http://xmlns.com/foaf/0.1/</span>"
+   <span class="attr">xmlns:owl</span>="<span class="attrVal">http://www.w3.org/2002/07/owl#</span>"
+   <span class="attr">xmlns:rdf</span>="<span class="attrVal">http://www.w3.org/1999/02/22-rdf-syntax-ns#</span>"
+   <span class="attr">xmlns:rdfs</span>="<span class="attrVal">http://www.w3.org/2000/01/rdf-schema#</span>"
+   <span class="attr">xmlns:skos</span>="<span class="attrVal">http://www.w3.org/2004/02/skos/core#</span>"
+   <span class="attr">xmlns:xsd</span>="<span class="attrVal">http://www.w3.org/2001/XMLSchema#</span>"
+   <span class="attr">xmlns:dc</span>="<span class="attrVal">http://purl.org/dc/elements/1.1/</span>"
+   <span class="attr">xmlns:dcterms</span>="<span class="attrVal">http://purl.org/dc/terms/</span>"
+   <span class="attr">xmlns:dctype</span>="<span class="attrVal">http://purl.org/dc/dcmitype/</span>"
+   <span class="attr">xmlns:vann</span>="<span class="attrVal">http://purl.org/vocab/vann/</span>"
+   <span class="attr">xmlns:cc</span>="<span class="attrVal">http://web.resource.org/cc/</span>" <span class="attr">xml:base</span>="<span class="attrVal">http://data.fundacionctic.org/vocab/catalog</span>"<span class="elem">&gt;</span>
+  
+  <span class="elem">&lt;owl:Ontology</span> <span class="attr">rdf:about</span>="<span class="attrVal"/>"<span class="elem">&gt;</span>
+    <span class="elem">&lt;dc:identifier</span><span class="elem">&gt;</span>
+      <span class="text">http://data.fundacionctic.org/vocab/catalog/datasets_20090928</span>
+    <span class="elem">&lt;/dc:identifier&gt;</span>
+    <span class="elem">&lt;dc:date</span><span class="elem">&gt;</span><span class="text">2009-09-28</span><span class="elem">&lt;/dc:date&gt;</span>
+    <span class="elem">&lt;dcterms:issued</span><span class="elem">&gt;</span><span class="text">2009-09-28</span><span class="elem">&lt;/dcterms:issued&gt;</span>
+    <span class="elem">&lt;dc:title</span> <span class="attr">xml:lang</span>="<span class="attrVal">es</span>"<span class="elem">&gt;</span><span class="text">Vocabulario de Catálogos de Datasets</span><span class="elem">&lt;/dc:title&gt;</span>
+    <span class="elem">&lt;dc:title</span> <span class="attr">xml:lang</span>="<span class="attrVal">en</span>"<span class="elem">&gt;</span><span class="text">Dataset Catalog Vocabulary</span><span class="elem">&lt;/dc:title&gt;</span>
+    <span class="elem">&lt;rdfs:comment</span> <span class="attr">xml:lang</span>="<span class="attrVal">es</span>"<span class="elem">&gt;</span>
+      <span class="text">Este vocabulario se utiliza para modelar los catálogos de conjuntos de </span>
+      <span class="text">datos y las relaciones con los datasets</span>
+    <span class="elem">&lt;/rdfs:comment&gt;</span>
+    <span class="elem">&lt;rdfs:comment</span> <span class="attr">xml:lang</span>="<span class="attrVal">en</span>"<span class="elem">&gt;</span>
+      <span class="text">This vocabulary is used for modelling catalogs of datasets and its </span>
+      <span class="text">relationships with the datasets</span>
+    <span class="elem">&lt;/rdfs:comment&gt;</span>
+    <span class="elem">&lt;dcterms:isVersionOf</span> <span class="attr">rdf:resource</span>="<span class="attrVal">http://data.fundacionctic.org/vocab/catalog/datasets#</span>"<span class="elem">/&gt;</span>
+    <span class="elem">&lt;dc:creator</span><span class="elem">&gt;</span><span class="text">CTIC CT</span><span class="elem">&lt;/dc:creator&gt;</span>
+    <span class="elem">&lt;cc:license</span> <span class="attr">rdf:resource</span>="<span class="attrVal">http://creativecommons.org/licenses/by-nc-sa/3.0</span>"<span class="elem">/&gt;</span>
+    <span class="elem">&lt;dc:rights</span> <span class="attr">xml:lang</span>="<span class="attrVal">es</span>"<span class="elem">&gt;</span><span class="text">CTIC CT - Creative Commons 3.0 (BY-NC-SA)</span><span class="elem">&lt;/dc:rights&gt;</span>
+    <span class="elem">&lt;dc:rights</span> <span class="attr">xml:lang</span>="<span class="attrVal">en</span>"<span class="elem">&gt;</span><span class="text">CTIC CT - Creative Commons 3.0 (BY-NC-SA)</span><span class="elem">&lt;/dc:rights&gt;</span>
+    <span class="elem">&lt;vann:preferredNamespaceUri</span><span class="elem">&gt;</span><span class="text">http://data.fundacionctic.org/vocab/catalog/datasets#</span><span class="elem">&lt;/vann:preferredNamespaceUri&gt;</span>
+    <span class="elem">&lt;vann:preferredNamespacePrefix</span><span class="elem">&gt;</span><span class="text">ds</span><span class="elem">&lt;/vann:preferredNamespacePrefix&gt;</span>
+    <span class="elem">&lt;dcterms:hasFormat</span><span class="elem">&gt;</span>
+      <span class="elem">&lt;dctype:Text</span> <span class="attr">rdf:about</span>="<span class="attrVal">http://data.fundacionctic.org/vocab/catalog/datasets_20090928.html</span>"<span class="elem">&gt;</span>
+        <span class="elem">&lt;dc:format</span><span class="elem">&gt;</span>
+          <span class="elem">&lt;dcterms:IMT</span><span class="elem">&gt;</span>
+            <span class="elem">&lt;rdf:value</span><span class="elem">&gt;</span><span class="text">text/html</span><span class="elem">&lt;/rdf:value&gt;</span>
+            <span class="elem">&lt;rdfs:label</span><span class="elem">&gt;</span><span class="text">HTML</span><span class="elem">&lt;/rdfs:label&gt;</span>
+          <span class="elem">&lt;/dcterms:IMT&gt;</span>
+        <span class="elem">&lt;/dc:format&gt;</span>
+      <span class="elem">&lt;/dctype:Text&gt;</span>
+    <span class="elem">&lt;/dcterms:hasFormat&gt;</span>
+    <span class="elem">&lt;dcterms:hasFormat</span><span class="elem">&gt;</span>
+      <span class="elem">&lt;dctype:Text</span> <span class="attr">rdf:about</span>="<span class="attrVal">http://data.fundacionctic.org/vocab/catalog/datasets_20090928.rdf</span>"<span class="elem">&gt;</span>
+        <span class="elem">&lt;dc:format</span><span class="elem">&gt;</span>
+          <span class="elem">&lt;dcterms:IMT</span><span class="elem">&gt;</span>
+            <span class="elem">&lt;rdf:value</span><span class="elem">&gt;</span><span class="text">application/rdf+xml</span><span class="elem">&lt;/rdf:value&gt;</span>
+            <span class="elem">&lt;rdfs:label</span><span class="elem">&gt;</span><span class="text">RDF</span><span class="elem">&lt;/rdfs:label&gt;</span>
+          <span class="elem">&lt;/dcterms:IMT&gt;</span>
+        <span class="elem">&lt;/dc:format&gt;</span>
+      <span class="elem">&lt;/dctype:Text&gt;</span>
+    <span class="elem">&lt;/dcterms:hasFormat&gt;</span>
+  <span class="elem">&lt;/owl:Ontology&gt;</span>
+  
+  <span class="elem">&lt;rdfs:Class</span> <span class="attr">rdf:about</span>="<span class="attrVal">http://data.fundacionctic.org/vocab/catalog/datasets#Catalog</span>"<span class="elem">&gt;</span>
+    <span class="elem">&lt;rdfs:isDefinedBy</span> <span class="attr">rdf:resource</span>="<span class="attrVal">http://data.fundacionctic.org/vocab/catalog/datasets#</span>"<span class="elem">/&gt;</span>
+    <span class="elem">&lt;rdfs:label</span> <span class="attr">xml:lang</span>="<span class="attrVal">es</span>"<span class="elem">&gt;</span><span class="text">Catálogo de datasets</span><span class="elem">&lt;/rdfs:label&gt;</span>
+    <span class="elem">&lt;rdfs:comment</span> <span class="attr">xml:lang</span>="<span class="attrVal">es</span>"<span class="elem">&gt;</span><span class="text">Catálogo donde se expresan conjuntos de datos</span><span class="elem">&lt;/rdfs:comment&gt;</span>
+    <span class="elem">&lt;skos:definition</span> <span class="attr">xml:lang</span>="<span class="attrVal">es</span>"<span class="elem">&gt;</span><span class="text">Catálogo donde se expresan conjuntos de datos</span><span class="elem">&lt;/skos:definition&gt;</span>
+    <span class="elem">&lt;rdfs:label</span> <span class="attr">xml:lang</span>="<span class="attrVal">en</span>"<span class="elem">&gt;</span><span class="text">Catalog of Datasets</span><span class="elem">&lt;/rdfs:label&gt;</span>
+    <span class="elem">&lt;rdfs:comment</span> <span class="attr">xml:lang</span>="<span class="attrVal">en</span>"<span class="elem">&gt;</span><span class="text">Catalog which have defined datasets in</span><span class="elem">&lt;/rdfs:comment&gt;</span>
+    <span class="elem">&lt;skos:definition</span> <span class="attr">xml:lang</span>="<span class="attrVal">en</span>"<span class="elem">&gt;</span><span class="text">Catalog which have defined datasets in</span><span class="elem">&lt;/skos:definition&gt;</span>
+    <span class="elem">&lt;dcterms:issued</span><span class="elem">&gt;</span><span class="text">2009-09-28</span><span class="elem">&lt;/dcterms:issued&gt;</span>
+  <span class="elem">&lt;/rdfs:Class&gt;</span>
+  
+  <span class="elem">&lt;rdfs:Class</span> <span class="attr">rdf:about</span>="<span class="attrVal">http://data.fundacionctic.org/vocab/catalog/datasets#Dataset</span>"<span class="elem">&gt;</span>
+    <span class="elem">&lt;rdfs:isDefinedBy</span> <span class="attr">rdf:resource</span>="<span class="attrVal">http://data.fundacionctic.org/vocab/catalog/datasets#</span>"<span class="elem">/&gt;</span>
+    <span class="elem">&lt;rdfs:label</span> <span class="attr">xml:lang</span>="<span class="attrVal">es</span>"<span class="elem">&gt;</span><span class="text">Dataset</span><span class="elem">&lt;/rdfs:label&gt;</span>
+    <span class="elem">&lt;rdfs:comment</span> <span class="attr">xml:lang</span>="<span class="attrVal">es</span>"<span class="elem">&gt;</span><span class="text">Un conjunto de datos</span><span class="elem">&lt;/rdfs:comment&gt;</span>
+    <span class="elem">&lt;skos:definition</span> <span class="attr">xml:lang</span>="<span class="attrVal">es</span>"<span class="elem">&gt;</span><span class="text">Un conjunto de datos</span><span class="elem">&lt;/skos:definition&gt;</span>
+    <span class="elem">&lt;rdfs:label</span> <span class="attr">xml:lang</span>="<span class="attrVal">en</span>"<span class="elem">&gt;</span><span class="text">Dataset</span><span class="elem">&lt;/rdfs:label&gt;</span>
+    <span class="elem">&lt;rdfs:comment</span> <span class="attr">xml:lang</span>="<span class="attrVal">en</span>"<span class="elem">&gt;</span><span class="text">A dataset</span><span class="elem">&lt;/rdfs:comment&gt;</span>
+    <span class="elem">&lt;skos:definition</span> <span class="attr">xml:lang</span>="<span class="attrVal">en</span>"<span class="elem">&gt;</span><span class="text">A dataset</span><span class="elem">&lt;/skos:definition&gt;</span>
+    <span class="elem">&lt;rdfs:subClassOf</span> <span class="attr">rdf:resource</span>="<span class="attrVal">http://rdfs.org/ns/void#Dataset</span>"<span class="elem">/&gt;</span>
+    <span class="elem">&lt;dcterms:issued</span><span class="elem">&gt;</span><span class="text">2009-09-28</span><span class="elem">&lt;/dcterms:issued&gt;</span>
+  <span class="elem">&lt;/rdfs:Class&gt;</span>
+  
+  <span class="elem">&lt;rdf:Property</span> <span class="attr">rdf:about</span>="<span class="attrVal">http://data.fundacionctic.org/vocab/catalog/datasets#memberOf</span>"<span class="elem">&gt;</span>
+    <span class="elem">&lt;rdfs:isDefinedBy</span> <span class="attr">rdf:resource</span>="<span class="attrVal">http://data.fundacionctic.org/vocab/catalog/datasets#</span>"<span class="elem">/&gt;</span>
+    <span class="elem">&lt;rdfs:label</span> <span class="attr">xml:lang</span>="<span class="attrVal">es</span>"<span class="elem">&gt;</span><span class="text">Un Dataset es miembro de un Catálogo</span><span class="elem">&lt;/rdfs:label&gt;</span>
+    <span class="elem">&lt;rdfs:comment</span> <span class="attr">xml:lang</span>="<span class="attrVal">es</span>"<span class="elem">&gt;</span>
+      <span class="text">Propiedad que define que un Dataset forma parte de un Catálogo</span>
+    <span class="elem">&lt;/rdfs:comment&gt;</span>
+    <span class="elem">&lt;skos:definition</span> <span class="attr">xml:lang</span>="<span class="attrVal">es</span>"<span class="elem">&gt;</span>
+      <span class="text">Propiedad que define que un Dataset forma parte de un Catálogo</span>
+    <span class="elem">&lt;/skos:definition&gt;</span>
+    <span class="elem">&lt;rdfs:label</span> <span class="attr">xml:lang</span>="<span class="attrVal">en</span>"<span class="elem">&gt;</span><span class="text">A Dataset is a member of a Catalog</span><span class="elem">&lt;/rdfs:label&gt;</span>
+    <span class="elem">&lt;rdfs:comment</span> <span class="attr">xml:lang</span>="<span class="attrVal">en</span>"<span class="elem">&gt;</span>
+      <span class="text">Property which defines a Dataset which is a member of a Catalog</span>
+    <span class="elem">&lt;/rdfs:comment&gt;</span>
+    <span class="elem">&lt;skos:definition</span> <span class="attr">xml:lang</span>="<span class="attrVal">en</span>"<span class="elem">&gt;</span>
+      <span class="text">Property which defines a Dataset which is a member of a Catalog</span>
+    <span class="elem">&lt;/skos:definition&gt;</span>
+    <span class="elem">&lt;rdfs:range</span> <span class="attr">rdf:resource</span>="<span class="attrVal">http://data.fundacionctic.org/vocab/catalog/datasets#Catalog</span>"<span class="elem">/&gt;</span>
+    <span class="elem">&lt;rdfs:domain</span> <span class="attr">rdf:resource</span>="<span class="attrVal">http://data.fundacionctic.org/vocab/catalog/datasets#Dataset</span>"<span class="elem">/&gt;</span>
+    <span class="elem">&lt;dcterms:issued</span><span class="elem">&gt;</span><span class="text">2009-09-28</span><span class="elem">&lt;/dcterms:issued&gt;</span>
+  <span class="elem">&lt;/rdf:Property&gt;</span>
+<span class="elem">&lt;/rdf:RDF&gt;</span>
+</code></pre><h2 id="sec-license">License</h2><p class="license">This work is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/3.0">Creative Commons License</a>.</p></body></html>
