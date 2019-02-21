@@ -1,0 +1,11 @@
+version: '3.0'
+
+services:
+    web:
+        image: nginx
+        volumes:
+            - './politics:/usr/share/nginx/html/'
+        ports:
+            - "4440:80"
+        container_name: electia_web
+
