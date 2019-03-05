@@ -1,9 +1,9 @@
 [
   [
-    ["", "PSOE", "Pedro Sánchez (PSOE)"],
-    ["MIN", "Negativa", "Negativa"],
-    ["MAX", "Positiva", "Positiva"],
+    ["", "PSOE", "Pedro SÃ¡nchez (PSOE)"],
+    ["MIN", "", ""],
+    ["MAX", "", ""],
     ["Value", 33.66, 34.61],
-    ["Label", "¿Qué opinión tiene Twitter de PSOE en la última semana?", "¿Qué opinión tiene Twitter de Pedro Sánchez (PSOE) en la última semana?"]
+    ["Label", "Â¿QuÃ© opiniÃ³n tiene Twitter de PSOE en la Ãºltima semana?", "Â¿QuÃ© opiniÃ³n tiene Twitter de Pedro SÃ¡nchez (PSOE) en la Ãºltima semana?"]
   ]
 ]
