@@ -1,8 +1,8 @@
 [
   [
     ["", "Cs", "Albert Rivera (Ciudadanos)"],
-    ["MIN", "Negativa", "Negativa"],
-    ["MAX", "Positiva", "Positiva"],
+    ["MIN", "", ""],
+    ["MAX", "", ""],
     ["Value", 43.69, 40.74],
     ["Label", "¿Qué opinión tiene Twitter de Cs en la última semana?", "¿Qué opinión tiene Twitter de Albert Rivera (Ciudadanos) en la última semana?"]
   ]
