@@ -1,9 +1,9 @@
 [
   [
-    ["", "IU", "Alberto Garzón (IU)"],
-    ["MIN", "Negativa", "Negativa"],
-    ["MAX", "Positiva", "Positiva"],
+    ["", "IU", "Alberto GarzÃ³n (IU)"],
+    ["MIN", "", ""],
+    ["MAX", "", ""],
     ["Value", 34.58, 34.63],
-    ["Label", "¿Qué opinión tiene Twitter de IU en la última semana?", "¿Qué opinión tiene Twitter de Alberto Garzón (IU) en la última semana?"]
+    ["Label", "Â¿QuÃ© opiniÃ³n tiene Twitter de IU en la Ãºltima semana?", "Â¿QuÃ© opiniÃ³n tiene Twitter de Alberto GarzÃ³n (IU) en la Ãºltima semana?"]
   ]
 ]

@@ -1,9 +1,9 @@
 [
   [
     ["", "Podemos", "Pablo Iglesias (Podemos)"],
-    ["MIN", "Negativa", "Negativa"],
-    ["MAX", "Positiva", "Positiva"],
+    ["MIN", "", ""],
+    ["MAX", "", ""],
     ["Value", 33.24, 33.82],
-    ["Label", "¿Qué opinión tiene Twitter de Podemos en la última semana?", "¿Qué opinión tiene Twitter de Pablo Iglesias (Podemos) en la última semana?"]
+    ["Label", "Â¿QuÃ© opiniÃ³n tiene Twitter de Podemos en la Ãºltima semana?", "Â¿QuÃ© opiniÃ³n tiene Twitter de Pablo Iglesias (Podemos) en la Ãºltima semana?"]
   ]
 ]
