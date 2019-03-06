@@ -1,9 +1,0 @@
-[
-  [
-    ["", "Cs", "Juan Vázquez (Ciudadanos)"],
-    ["MIN", "Negativa", "Negativa"],
-    ["MAX", "Positiva", "Positiva"],
-    ["Value", 42.02, null],
-    ["Label", "¿Qué opinión tiene Twitter de Cs en la última semana?", "¿Qué opinión tiene Twitter de Juan Vázquez (Ciudadanos) en la última semana?"]
-  ]
-]
