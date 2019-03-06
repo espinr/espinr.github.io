@@ -1,8 +1,8 @@
 [
   [
     ["", "VOX", "Santiago Abascal (VOX)"],
-    ["MIN", "Negativa", "Negativa"],
-    ["MAX", "Positiva", "Positiva"],
+    ["MIN", "", ""],
+    ["MAX", "", ""],
     ["Value", 36.95, 45.73],
     ["Label", "¿Qué opinión tiene Twitter de VOX en la última semana?", "¿Qué opinión tiene Twitter de Santiago Abascal (VOX) en la última semana?"]
   ]
