@@ -1,0 +1,153 @@
+@prefix : <http://purl.org/heart/unit#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
+@base <http://purl.org/heart/unit> .
+
+<http://purl.org/heart/unit> rdf:type owl:Ontology ;
+                              owl:versionIRI <http://purl.org/heart/unit/0.1/> ;
+                              owl:imports <http://qudt.org/2.0/schema/qudt/science> ,
+                                          <http://qudt.org/2.1/schema/qudt> ,
+                                          <http://qudt.org/2.1/vocab/quantitykind> ,
+                                          <http://www.linkedmodel.org/schema/vaem> ;
+                              dc:creator "Martin Alvarez-Espinar" ;
+                              rdfs:label "Extension of the QUDT Units of Measure for All Units created for the HEART Project.eu" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/contributor
+dc:contributor rdf:type owl:AnnotationProperty ;
+               rdfs:isDefinedBy dc: ;
+               rdfs:label "contributor" ;
+               rdfs:range xsd:string .
+
+
+###  http://purl.org/dc/elements/1.1/creator
+dc:creator rdf:type owl:AnnotationProperty ;
+           rdfs:isDefinedBy dc: ;
+           rdfs:label "creator" ;
+           rdfs:range xsd:string .
+
+
+###  http://purl.org/dc/elements/1.1/description
+dc:description rdf:type owl:AnnotationProperty ;
+               rdfs:isDefinedBy dc: ;
+               rdfs:label "description" ;
+               rdfs:range xsd:string .
+
+
+###  http://purl.org/dc/elements/1.1/rights
+dc:rights rdf:type owl:AnnotationProperty ;
+          rdfs:isDefinedBy dc: ;
+          rdfs:label "rights" ;
+          rdfs:range xsd:string .
+
+
+###  http://purl.org/dc/elements/1.1/subject
+dc:subject rdf:type owl:AnnotationProperty ;
+           rdfs:isDefinedBy dc: ;
+           rdfs:label "subject" ;
+           rdfs:range xsd:string .
+
+
+###  http://purl.org/dc/elements/1.1/title
+dc:title rdf:type owl:AnnotationProperty ;
+         rdfs:isDefinedBy dc: ;
+         rdfs:label "title" ;
+         rdfs:range xsd:string .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://purl.org/heart/unit/DeciA
+<http://purl.org/heart/unit/DeciA> rdf:type owl:NamedIndividual ,
+                                            <http://qudt.org/schema/qudt/DecimalScaledUnit> ,
+                                            <http://qudt.org/schema/qudt/ElectricCurrentUnit> ,
+                                            <http://qudt.org/schema/qudt/Unit> ;
+                                   <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/ElectricCurrent> ;
+                                   <http://qudt.org/schema/qudt/abbreviation> "dA" ;
+                                   <http://qudt.org/schema/qudt/conversionMultiplier> "0.1"^^xsd:double ;
+                                   <http://qudt.org/schema/qudt/conversionOffset> "0.0"^^xsd:double ;
+                                   <http://qudt.org/schema/qudt/isScalingOf> unit:A ;
+                                   <http://qudt.org/schema/qudt/symbol> "dA" ;
+                                   rdfs:isDefinedBy <http://purl.org/heartproject/unit/> ,
+                                                    <http://purl.org/heartproject/unit/0.1/> ;
+                                   rdfs:label "deciampere" ;
+                                   <http://www.w3.org/2004/02/skos/core#prefLabel> "deciampere" .
+
+
+###  http://purl.org/heart/unit/DeciDEG_C
+<http://purl.org/heart/unit/DeciDEG_C> rdf:type owl:NamedIndividual ,
+                                                <http://qudt.org/schema/qudt/DerivedUnit> ,
+                                                <http://qudt.org/schema/qudt/SI-Unit> ,
+                                                <http://qudt.org/schema/qudt/TemperatureUnit> ,
+                                                <http://qudt.org/schema/qudt/Unit> ;
+                                       <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/ThermodynamicTemperature> ;
+                                       <http://qudt.org/schema/qudt/abbreviation> "deciDegC" ;
+                                       <http://qudt.org/schema/qudt/baseUnitDimensions> "K" ;
+                                       <http://qudt.org/schema/qudt/conversionMultiplier> "0.1"^^xsd:double ;
+                                       <http://qudt.org/schema/qudt/conversionOffset> "273.15"^^xsd:double ;
+                                       <http://qudt.org/schema/qudt/description> "<p>Decidegree Celsius is a scaled unit of measurement for temperature.</p>" ;
+                                       <http://qudt.org/schema/qudt/isScalingOf> unit:DegC ;
+                                       <http://qudt.org/schema/qudt/latexDefinition> "deciDegree Celsius" ;
+                                       rdfs:isDefinedBy <http://purl.org/heartproject/unit/> ,
+                                                        <http://purl.org/heartproject/unit/0.1/> ;
+                                       rdfs:label "Decidegree Celsius" ;
+                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "decidegree-celsius" .
+
+
+###  http://purl.org/heart/unit/DeciV
+<http://purl.org/heart/unit/DeciV> rdf:type owl:NamedIndividual ,
+                                            <http://qudt.org/schema/qudt/DerivedUnit> ,
+                                            <http://qudt.org/schema/qudt/EnergyPerElectricChargeUnit> ,
+                                            <http://qudt.org/schema/qudt/Unit> ;
+                                   <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/EnergyPerElectricCharge> ;
+                                   <http://qudt.org/schema/qudt/abbreviation> "dV" ;
+                                   <http://qudt.org/schema/qudt/conversionMultiplier> "0.1"^^xsd:double ;
+                                   <http://qudt.org/schema/qudt/description> "<p><em>Volt</em> is the SI unit of electric potential. Separating electric charges creates potential energy, which can be measured in energy units such as joules. Electric potential is defined as the amount of potential energy present per unit of charge. Electric potential is measured in volts, with one volt representing a potential of one joule per coulomb of charge. The name of the unit honors the Italian scientist Count Alessandro Volta (1745-1827), the inventor of the first battery.  The volt also may be expressed with a variety of other units. For example, a volt is also equal to one watt per ampere (W/A) and one joule per ampere per second (J/A/s). Decivolt is derived unit from the volt.</p>" ;
+                                   <http://qudt.org/schema/qudt/isScalingOf> unit:V ;
+                                   <http://qudt.org/schema/qudt/symbol> "dV" ;
+                                   rdfs:isDefinedBy <http://purl.org/heartproject/unit/> ,
+                                                    <http://purl.org/heartproject/unit/0.1/> .
+
+
+###  http://purl.org/heart/unit/L-PER-MIN
+<http://purl.org/heart/unit/L-PER-MIN> rdf:type owl:NamedIndividual ,
+                                                <http://qudt.org/schema/qudt/DerivedUnit> ,
+                                                <http://qudt.org/schema/qudt/Unit> ,
+                                                <http://qudt.org/schema/qudt/VolumeUnit> ;
+                                       <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/VolumePerUnitTime> ;
+                                       <http://qudt.org/schema/qudt/abbreviation> "l/min" ;
+                                       <http://qudt.org/schema/qudt/description> "Litre Per Minute (l/min) is a non-SI metric system unit in the category of Volume flow rate." ;
+                                       <http://qudt.org/schema/qudt/symbol> "l/min" ;
+                                       rdfs:isDefinedBy <http://purl.org/heartproject/unit/> ;
+                                       rdfs:label "Liter per Minute" ;
+                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "litre-per-minute" .
+
+
+###  http://purl.org/heart/unit/MilliV
+<http://purl.org/heart/unit/MilliV> rdf:type owl:NamedIndividual ,
+                                             <http://qudt.org/schema/qudt/DerivedUnit> ,
+                                             <http://qudt.org/schema/qudt/EnergyPerElectricChargeUnit> ,
+                                             <http://qudt.org/schema/qudt/Unit> ;
+                                    <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/EnergyPerElectricCharge> ;
+                                    <http://qudt.org/schema/qudt/abbreviation> "mV" ;
+                                    <http://qudt.org/schema/qudt/conversionMultiplier> "0.001"^^xsd:double ;
+                                    <http://qudt.org/schema/qudt/description> "<p><em>Volt</em> is the SI unit of electric potential. Separating electric charges creates potential energy, which can be measured in energy units such as joules. Electric potential is defined as the amount of potential energy present per unit of charge. Electric potential is measured in volts, with one volt representing a potential of one joule per coulomb of charge. The name of the unit honors the Italian scientist Count Alessandro Volta (1745-1827), the inventor of the first battery.  The volt also may be expressed with a variety of other units. For example, a volt is also equal to one watt per ampere (W/A) and one joule per ampere per second (J/A/s). Millivolt is derived unit from the volt.</p>" ;
+                                    <http://qudt.org/schema/qudt/isScalingOf> unit:V ;
+                                    <http://qudt.org/schema/qudt/symbol> "mV" ;
+                                    rdfs:isDefinedBy <http://purl.org/heartproject/unit/> ,
+                                                     <http://purl.org/heartproject/unit/0.1/> ;
+                                    rdfs:label "millivolt" ;
+                                    <http://www.w3.org/2004/02/skos/core#prefLabel> "millivolt" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
