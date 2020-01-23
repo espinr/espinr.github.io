@@ -7,8 +7,17 @@
       "m3lite": "http://purl.org/iot/vocab/m3-lite#",
       "saref4ener": "https://w3id.org/saref4ener#",
       "reegle": "http://reegle.info/schema#",
-      "heart": "http://purl.org/heartproject/unit/",
+      "heart": "http://purl.org/heart/unit/",
       "unit": "http://qudt.org/vocab/unit/",
-      "xsd": "http://www.w3.org/2001/XMLSchema#"      
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      
+      "DEG_C": "http://qudt.org/vocab/unit/DEG_C",
+      "PERCENT": "http://qudt.org/vocab/unit/",
+      "W": "http://qudt.org/vocab/unit/W",
+      "L-PER-MIN": "http://purl.org/heart/unit/L-PER-MIN",
+      "M-PER-SEC": "http://qudt.org/vocab/unit/M-PER-SEC",
+      "ON-OFF-STATE": "https://w3id.org/saref#OnOffState",
+      "KiloW-HR": "http://qudt.org/vocab/unit/KiloW-HR"
+
    ]
 }
