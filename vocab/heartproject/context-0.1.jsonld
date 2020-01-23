@@ -1,0 +1,14 @@
+{
+   "@context": [
+      "https://www.w3.org/2019/wot/td/v1",
+      "saref": "https://w3id.org/saref#",
+      "saref4agri": "https://w3id.org/def/saref4agri#",
+      "saref4bldg": "https://w3id.org/def/saref4bldg#",
+      "m3lite": "http://purl.org/iot/vocab/m3-lite#",
+      "saref4ener": "https://w3id.org/saref4ener#",
+      "reegle": "http://reegle.info/schema#",
+      "heart": "http://purl.org/heartproject/unit/",
+      "unit": "http://qudt.org/vocab/unit/",
+      "xsd": "http://www.w3.org/2001/XMLSchema#"      
+   ]
+}
