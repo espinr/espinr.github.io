@@ -11,14 +11,28 @@
           "heart": "http://purl.org/heart/unit/",
           "qudt": "http://qudt.org/vocab/unit/",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "quantitykind": "http://qudt.org/vocab/quantitykind/",
           
           "DEG_C": "http://qudt.org/vocab/unit/DEG_C",
-          "PERCENT": "http://qudt.org/vocab/unit/",
+          "PERCENT": "http://qudt.org/vocab/unit/PERCENT",
           "W": "http://qudt.org/vocab/unit/W",
+          "KiloW": "http://qudt.org/vocab/unit/KiloW",
           "L-PER-MIN": "http://purl.org/heart/unit/L-PER-MIN",
           "M-PER-SEC": "http://qudt.org/vocab/unit/M-PER-SEC",
-          "ON-OFF-STATE": "https://w3id.org/saref#OnOffState",
-          "KiloW-HR": "http://qudt.org/vocab/unit/KiloW-HR"
+          "KiloW-HR": "http://qudt.org/vocab/unit/KiloW-HR",
+          "KiloW": "http://qudt.org/vocab/unit/KiloW",
+          "COP": "http://qudt.org/vocab/quantitykind/ThermalEfficiency",
+          "HR": "http://qudt.org/vocab/unit/HR",
+          "V": "http://qudt.org/vocab/unit/V",
+          "DeciV": "http://purl.org/heart/unit/DeciV",
+          "MilliV": "http://purl.org/heart/unit/MilliV",
+          "DeciA": "http://purl.org/heart/unit/DeciA",
+          "A": "http://qudt.org/vocab/unit/A",
+          "OnOffState": "https://w3id.org/saref#OnOffState",
+          "MultiLevelState": "https://w3id.org/saref#MultiLevelState",
+          "MIN": "http://qudt.org/vocab/unit/MIN",
+          "NUM": "http://qudt.org/vocab/unit/NUM",
+          "DeciDEG_C": "http://purl.org/heart/unit/DeciDEG_C"
       }
    ]
 }
