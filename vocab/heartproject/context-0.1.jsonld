@@ -9,7 +9,7 @@
           "saref4ener": "https://w3id.org/saref4ener#",
           "reegle": "http://reegle.info/schema#",
           "heart": "http://purl.org/heart/unit/",
-          "unit": "http://qudt.org/vocab/unit/",
+          "qudt": "http://qudt.org/vocab/unit/",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
           
           "DEG_C": "http://qudt.org/vocab/unit/DEG_C",
