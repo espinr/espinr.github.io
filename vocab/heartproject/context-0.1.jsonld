@@ -32,7 +32,8 @@
           "MultiLevelState": "https://w3id.org/saref#MultiLevelState",
           "MIN": "http://qudt.org/vocab/unit/MIN",
           "NUM": "http://qudt.org/vocab/unit/NUM",
-          "DeciDEG_C": "http://purl.org/heart/unit/DeciDEG_C"
+          "DeciDEG_C": "http://purl.org/heart/unit/DeciDEG_C",
+          "NewtonianConstantOfGravitation": "http://qudt.org/vocab/constant/NewtonianConstantOfGravitation"
       }
    ]
 }
