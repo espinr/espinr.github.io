@@ -33,7 +33,8 @@
           "MIN": "http://qudt.org/vocab/unit/MIN",
           "NUM": "http://qudt.org/vocab/unit/NUM",
           "DeciDEG_C": "http://purl.org/heart/unit/DeciDEG_C",
-          "NewtonianConstantOfGravitation": "http://qudt.org/vocab/constant/NewtonianConstantOfGravitation"
+          "NewtonianConstantOfGravitation": "http://qudt.org/vocab/constant/NewtonianConstantOfGravitation",
+          "UTC-DATETIME": "http://qudt.org/schema/qudt/"
       }
    ]
 }
