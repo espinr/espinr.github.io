@@ -16,7 +16,7 @@ El circuito está en Agones, Pravia, y sube hasta la antena repetidor que está 
 
 ## ¿CÓMO COMPETIR?
 
-La gestión de la competición se hace desde [OpenTrack](https://data.opentrack.run). Tienes que crear una cuenta e [inscribirte en la carrera](https://data.opentrack.run/en-gb/x/2020/ESP/antenon/) haciendo clic el botón correspondiente e introduce los datos personales que te va pidiendo. La aplicación es gratuita, así que aparecerá que tienes que pagar 0 (cero) euros.
+La gestión de la competición se hace desde [OpenTrack](https://data.opentrack.run). Tienes que crear una cuenta e [inscribirte en la carrera](https://data.opentrack.run/en-gb/x/2020/ESP/antenon/) haciendo clic el botón correspondiente e introduce los datos personales que te va pidiendo. La inscripción es gratuita, así que aparecerá que tienes que pagar 0 (cero) euros.
 
 Completa el circuito y cronométrate. Tienes que salir desde la zona marcada como salida (verás balizas y flechas), en el Barrio Molina de Agones (ver [la salida](https://www.google.com/maps/@43.5015398,-6.1221496,3a,75y,353.14h,91.94t/data=!3m6!1e1!3m4!1sM-zZuUFFb752lE-kHb5cZw!2e0!7i13312!8i6656)). Lo más sencillo es que te sitúes en la plaza de Agones y sigas las indicaciones que te llevarán hasta la salida. Si miras al norte, verás el repetidor del Monte Santa Catalina, que es donde acaba la carrera. Con tu GPS (Garmin, Polar, Suunto o el que uses) registra el tiempo desde la salida a la meta y guarda la prueba de lo que hiciste (es la prueba que tienes para demostrar que lo hiciste). 
 
@@ -47,7 +47,9 @@ Este evento, aunque nos referimos a él como una competición, no es una carrera
 
 ## CATEGORÍAS Y EQUIPOS
 
-Se establecerá una clasificación por equipos, donde puntuarán los mejores 3 atletas de cada equipo registrado. La puntuación será por puestos. 
+Se establecerá una clasificación por equipos (tanto masculino como femenino), donde puntuarán los mejores 3 atletas de cada equipo registrado. La puntuación será la suma de los tiempos de los tres mejores.
+
+*¡IMPORTANTE! Antes de inscribir a un equipo, mándanos un correo a pbest.me@gmail.com con el nombre del mismo. Los atletas pertenecientes a ese equipo ya lo podrán seleccionar cuando entren en la plataforma.*
 
 Se establecerán clasificaciones por categorías, según la IAAF y los años cumplidos en el año en curso.
 
