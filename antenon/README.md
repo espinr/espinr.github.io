@@ -47,11 +47,11 @@ Este evento, aunque nos referimos a él como una competición, no es una carrera
 
 ## CATEGORÍAS Y EQUIPOS
 
-Se establecerá una clasificación por equipos, donde puntuarán los mejores 3 atletas de cada club registrado. La puntuación será por puestos. 
+Se establecerá una clasificación por equipos, donde puntuarán los mejores 3 atletas de cada equipo registrado. La puntuación será por puestos. 
 
-Se establecerán clasificaciones por categorías, según la IAAF: Sub18, Sub23, Senior, M35, M40, M45, M50, M55 (más de 55), según los años cumplidos en el año en curso.
+Se establecerán clasificaciones por categorías, según la IAAF y los años cumplidos en el año en curso.
 
-Habrá premios.
+Habrá premios, así que esfuérzate.
 
 
 ## PROBLEMAS PARA LA INSCRIPCIÓN
