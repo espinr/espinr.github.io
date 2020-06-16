@@ -28,6 +28,8 @@ También puedes hacer un seguimiento de los resultados y las puntuaciones según
 
 Se debe completar el circuito siguiendo las marcas situadas a lo largo del recorrido. La salida está en el Barrio Molina de Agones (ver <a href="https://www.google.com/maps/@43.5015398,-6.1221496,3a,75y,353.14h,91.94t/data=!3m6!1e1!3m4!1sM-zZuUFFb752lE-kHb5cZw!2e0!7i13312!8i6656">salida</a>) y la meta bajo las antenas del Monte Santa Catalina. Tanto la salida como la meta están marcadas (la meta está justo bajo las antenas). 
 
+Zona de salida del AntenOn:
+
 ![Salida del AntenOn](./img/salida.png "Salida del AntenOn Vertical Race")
 
 El circuito está marcado por la zona más directa, así que es complicado atajar. Puedes seguir otro camino alternativo o hacer alguna variación, siempre que salgas desde la zona marcada y llegues al repetidor. 
@@ -47,7 +49,7 @@ Este evento, aunque nos referimos a él como una competición, no es una carrera
 
 Se establecerá una clasificación por equipos, donde puntuarán los mejores 3 atletas de cada club registrado. La puntuación será por puestos. 
 
-Se establecerán clasificaciones por categorías, según la IAAF: Sub18, Sub23, Senior, M35, M40, M45, M50, M55 (más de 55).
+Se establecerán clasificaciones por categorías, según la IAAF: Sub18, Sub23, Senior, M35, M40, M45, M50, M55 (más de 55), según los años cumplidos en el año en curso.
 
 Habrá premios.
 
