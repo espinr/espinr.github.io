@@ -49,6 +49,8 @@ Se establecerá una clasificación por equipos, donde puntuarán los mejores 3 a
 
 Se establecerán clasificaciones por categorías, según la IAAF: Sub18, Sub23, Senior, M35, M40, M45, M50, M55 (más de 55).
 
+Habrá premios.
+
 
 ## PROBLEMAS PARA LA INSCRIPCIÓN
 
