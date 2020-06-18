@@ -49,7 +49,7 @@ Este evento, aunque nos referimos a él como una competición, no es una carrera
 
 Se establecerá una clasificación por equipos (tanto masculino como femenino), donde puntuarán los mejores 3 atletas de cada equipo registrado. La puntuación será la suma de los tiempos de los tres mejores.
 
-*¡IMPORTANTE! Antes de inscribir a un equipo, mándanos un correo a pbest.me@gmail.com con el nombre del mismo. Los atletas pertenecientes a ese equipo ya lo podrán seleccionar cuando entren en la plataforma.*
+*¡IMPORTANTE! Si al inscribir tu equipo no te aparece disponible en el sistema, mándanos un correo a pbest.me@gmail.com con el nombre del mismo. Los atletas pertenecientes a ese equipo ya lo podrán seleccionar cuando entren en la plataforma.*
 
 Se establecerán clasificaciones por categorías, según la IAAF y los años cumplidos en el año en curso.
 
