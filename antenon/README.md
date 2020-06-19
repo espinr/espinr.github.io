@@ -6,6 +6,8 @@ La competición tendrá lugar entre el viernes 19 de junio y el domingo 19 de ju
 
 Es una competición virtual en la que los competidores/as tendrán que completar el recorrido de 2,3 kilómetros con 350 metros de desnivel positivo. Cada corredor/a participará contrarreloj, de forma individual (no se permite realizar la carrera en grupos de dos o más personas) y tendrá que registrar sus tiempos a través de un dispositivo GPS y subirlo a esta aplicación. Los/as atletas podrán realizar el circuito tantas veces como quieran, durante el periodo en el que está abierto, e ir subiendo los mejores tiempos.
 
+El recorrido es sencillo y ápto para todo el mundo. Un poco empinado, el suelo con roca y posiblemente algo de barro. Te recomendamos llevar calzado adecuado para el monte.
+
 Tienes un mes para hacerlo y subir tus resultados en cualquier momento. Si mejoras tu tiempo, puedes subir el mejor que tengas. Las clasificaciones irán variando cada día.
 
 La competición es gratuita y está abierta a cualquier persona, siempre que cumpla con las recomendaciones de seguridad. 
