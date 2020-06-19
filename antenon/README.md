@@ -18,9 +18,13 @@ El circuito está en Agones, Pravia, y sube hasta la antena repetidor que está 
 
 La gestión de la competición se hace desde [OpenTrack](https://data.opentrack.run). Tienes que crear una cuenta e [inscribirte en la carrera](https://data.opentrack.run/en-gb/x/2020/ESP/antenon/) haciendo clic el botón correspondiente e introduce los datos personales que te va pidiendo. La inscripción es gratuita, así que aparecerá que tienes que pagar 0 (cero) euros.
 
+Echa un vistazo a este vídeo que te explica paso a paso [cómo inscribirte](https://youtu.be/Hk9Sx5AXI6Q)
+
 Completa el circuito y cronométrate. Tienes que salir desde la zona marcada como salida (verás balizas y flechas), en el Barrio Molina de Agones (ver [la salida](https://www.google.com/maps/@43.5015398,-6.1221496,3a,75y,353.14h,91.94t/data=!3m6!1e1!3m4!1sM-zZuUFFb752lE-kHb5cZw!2e0!7i13312!8i6656)). Lo más sencillo es que te sitúes en la plaza de Agones y sigas las indicaciones que te llevarán hasta la salida. Si miras al norte, verás el repetidor del Monte Santa Catalina, que es donde acaba la carrera. Con tu GPS (Garmin, Polar, Suunto o el que uses) registra el tiempo desde la salida a la meta y guarda la prueba de lo que hiciste (es la prueba que tienes para demostrar que lo hiciste). 
 
 Sube la prueba de tu actividad haciendo clic en el botón amarillo de la [web de la carrera](https://data.opentrack.run/en-gb/x/2020/ESP/antenon/).
+
+Consulta un [vídeo de cómo subir tus resultados](https://youtu.be/k9pFKd76zt0).
 
 También puedes hacer un seguimiento de los resultados y las puntuaciones según los competidores van subiendo los resultados.
 
@@ -56,7 +60,9 @@ Se establecerán clasificaciones por categorías, según la IAAF y los años cum
 Habrá premios, así que esfuérzate.
 
 
-## PROBLEMAS PARA LA INSCRIPCIÓN
+## PROBLEMAS PARA LA INSCRIPCIÓN 
+
+Echa un vistazo a este vídeo que te explica paso a paso [cómo inscribirte](https://youtu.be/Hk9Sx5AXI6Q).
 
 Puede ser que la plataforma tenga algún texto en inglés. Si tienes problemas para subir tus datos, puedes enviarnos un correo a pbest.me@gmail.com y lo intentaremos solucionar cuanto antes.
 
