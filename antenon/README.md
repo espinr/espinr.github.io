@@ -1,6 +1,6 @@
 # AntenÓn Vertical Race (Virtual) 
 
-La competición tendrá lugar entre el viernes 19 de junio y el domingo 19 de julio de 2020, ambos inclusive. La inscripción es gratuita y es estrictamente necesario seguir las restricciones y recomendaciones relativas a la salud  y seguridad con respecto al la situación de la COVID-19 en Asturias. 
+La competición tendrá lugar entre el 22 de junio y el domingo 19 de julio de 2020, ambos inclusive. La inscripción es gratuita y es estrictamente necesario seguir las restricciones y recomendaciones relativas a la salud  y seguridad con respecto al la situación de la COVID-19 en Asturias. 
 
 ## ¿QUÉ ES AntenÒn Vertical Race?
 
