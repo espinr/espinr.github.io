@@ -1,0 +1,52 @@
+{
+	"@context": "https://www.w3.org/2019/wot/td/v1",
+	"title": "Thermostate Room 01",
+	"id": "https://espinr.github.io/sandbox/wot/td/thermostat01",
+	"description": "The thermostate in the room 001. Setting and measuring temperature with 0.5C accuracy  ",
+	"securityDefinitions": {
+		"nosec_sc": {
+			"scheme": "nosec"
+		}
+	},
+	"security": "nosec_sc",
+	"properties": {
+		"temperature": {
+			"description": "Shows the current temperature value",
+			"type": "number",
+			"minimum": -10.0,
+			"maximum": 50.0,
+			"observable" : true,
+            "forms": [{
+                "op": "readproperty",
+                "href": "https://espinr.github.io/sandbox/wot/td/thermostat01/temperature",
+                "cov:methodName": "GET" 
+            }]
+		},
+        "onOff": {
+            "type": "boolean",
+            "forms": [{
+                "op": "readproperty",
+                "href": "https://espinr.github.io/sandbox/wot/td/thermostat01/onoff",
+                "cov:methodName": "GET" 
+            }]
+        }
+    },
+	"actions": {
+        "onOff": {
+            "description": "Turn on or off the HVAC",
+            "forms": [{
+                "href": "https://espinr.github.io/sandbox/wot/td/thermostat01/onoff",
+                "cov:methodName": "POST" 
+            }]
+        },
+        "setTemperature": {
+            "description": "Set up the room temperature",
+            "forms": [{
+                "contentType": "application/json",
+                "href": "https://espinr.github.io/sandbox/wot/td/thermostat01/temperature",
+                "cov:methodName": "POST" 
+            }]
+        }
+    },
+	"events": {}
+}
