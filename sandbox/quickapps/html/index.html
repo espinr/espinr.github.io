@@ -8,6 +8,9 @@
   </head>
   <body>
     <script type="text/javascript"> 
+        channelReady(function(bAvailable) {
+            alert('Framework' + bAvailable)
+        })    
         appRouter('es.espinr.xtremejs', 'Hello', { })
     </script>
   </body>
