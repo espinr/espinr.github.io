@@ -2,7 +2,7 @@
     meta: {
         version: 1,
         updated: '2022-02-28',
-        source_url: 'https://espinr.github.io/sandbox/quickapps/leuven/data.js',
+        source_url: 'https://espinr.github.io/sandbox/quickapps/leuven/data.json',
         repository_url: 'https://github.com/espinr/',
         text_info: 'This quick app is an open-source project, powered by open data and enriched by the community.',
         text_acknowledge: 'Most of the information was extracted from Wikidata, OpenStreetMaps and public sources. [add your name here :)]',
