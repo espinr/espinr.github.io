@@ -1,4 +1,4 @@
-export const data = {
+﻿{
     meta: {
         version: 1,
         updated: '2022-02-28',
@@ -491,4 +491,4 @@ export const data = {
             ]
         }
     ]
-};
+}
