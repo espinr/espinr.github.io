@@ -1,13 +1,13 @@
 ﻿{
     "meta": {
         "version": "1",
-        "updated": "2022-02-28",
+        "updated": "2022-02-29",
         "source_url": "https://espinr.github.io/sandbox/quickapps/leuven/data.json",
-        "repository_url": "https://github.com/espinr/",
+        "repository_url": "https://github.com/espinr/quick-app-samples/tree/master/es.espinr.leuven",
         "text_info": "This quick app is an open-source project, powered by open data and enriched by the community.",
         "text_acknowledge": "Most of the information was extracted from Wikidata, OpenStreetMaps and public sources. [add your name here :)]",
         "text_feedback": "If you have seen any inaccuracy or if you want to contribute with your experience or pictures, please let us know.",
-        "feedback_url": "https://example.org/form"
+        "feedback_url": "https://github.com/espinr/quick-app-samples/tree/master/es.espinr.leuven"
     },
     "pois": [
         {
