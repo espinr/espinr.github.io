@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trofeo Pico Cueto - Streaming</title>
+    <style>
+        html body {
+            width: 100vw;
+            height: 100vh;
+            background-color: black;
+        }
+        .container {
+            background-color: black;
+        }
+        .video {
+            height: 255px;
+            width: 400px;
+        }
+        body {
+    background: black;
+}
+    .clock {
+        color: rgb(199, 199, 29);
+        float: left;
+        width: 100%;
+        font-size: 30px;
+        font-family: Orbitron;
+        letter-spacing: 7px;
+    }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1 class="text-bg-dark p-3 text-center">Tofeo Pico Cueto TV</h1>
+    <div class="text-center text-bg-dark p-3">
+        <div class="row text-bg-dark p-3">
+          <div class="col-12 col-md-6 video">
+            <div class="title">Km 2 (Cañedo)</div>
+            <iframe
+            src="https://player.twitch.tv?video=v1625964814&parent=espinr.github.io&autoplay=true&muted=true"
+            height="255"
+            width="400"
+            allowfullscreen>
+            </iframe>            
+          </div>
+          <div class="col-12 col-md-6 video">
+            <div class="title">Km 3 (Corralinos)</div>
+            <iframe
+            src="https://player.twitch.tv?video=v1625964814&parent=espinr.github.io&autoplay=true&muted=true"
+            height="255"
+            width="400"
+            allowfullscreen>
+            </iframe>            
+          </div>
+        </div>
+        <div class="row text-bg-dark p-3">
+          <div class="col-12 col-md-6 video">
+            <div class="title">Km 5 (Pico Cueto)</div>
+            <iframe
+            src="https://player.twitch.tv?video=v1625964814&parent=espinr.github.io&autoplay=true&muted=true"
+            height="255"
+            width="400"
+            allowfullscreen>
+            </iframe>            
+          </div>
+          <div class="col-12 col-md-6 video">
+            <div class="row">
+                <div class="col-12">
+                    <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <img src="./perfil.png" alt="Profile" width="100%">
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script>
+function showTime(){
+    var date = new Date();
+    var h = date.getHours(); // 0 - 23
+    var m = date.getMinutes(); // 0 - 59
+    var s = date.getSeconds(); // 0 - 59
+
+    if(h == 0){
+        h = 12;
+    }
+    
+    h = (h < 10) ? "0" + h : h;
+    m = (m < 10) ? "0" + m : m;
+    s = (s < 10) ? "0" + s : s;
+    
+    var time = h + ":" + m + ":" + s ;
+    document.getElementById("MyClockDisplay").innerText = time;
+    document.getElementById("MyClockDisplay").textContent = time;
+    
+    setTimeout(showTime, 1000);
+    
+}
+
+showTime();        
+    </script>
+  </body>
+</html>    
